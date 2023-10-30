@@ -1,0 +1,123 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.inline-block logo {
+    width: 23%;
+    padding: 1%;
+    
+}
+.nav{
+    width: 73%;
+    padding: 1%;
+   
+
+}
+.ul{
+    width: 50%;
+    margin-left: auto;
+    
+
+}
+
+.logo{
+text-align: center;
+}
+
+.heroImg img{
+    height: 600px;
+    width: 400px;
+    padding: 25px;
+
+}
+.content{
+width: 500px;
+margin: auto;
+}
+
+.footer{
+    background-color: #373738;
+}
+
+.footer ul{
+    text-align: center;
+} 
+
+/*My UX Skills section coded using CSS flex*/
+
+.mySkills{
+text-align: center;
+}
+
+.mySkills img{
+    height:auto;
+    width:30%;
+}
+
+.flexContainer{
+    width: 100%;
+    display:flex;
+    
+
+}
+
+.myWork{
+    grid-area:myWork;
+    text-align: center;
+    
+}
+
+
+.workGrid{
+    display: grid;
+    grid-template-areas: "myWork myWork";
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+
+}
+
+.thirtyThree{
+    width:33%;
+}
+
+.Brooklynimg{
+
+
+}
+.Brooklynimg img{
+height: 175px;
+width: auto;
+}
+
+.BBimg{
+
+}
+
+.BBimg img{
+height: 175px;
+width: 100px;
+}
+
+.Cs3img{
+
+}
+
+ .Cs3img img{
+height:auto;
+width: 400px;;
+}
+
+@media only screen and (max-width:600){.workGrid{
+    display:flex;
+    flex-direction: column;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    width:100%;
+    grid-template-areas: 
+    "myWork"
+    "myWork" 
+    "myWork"
+    "myWork"
+    "myWork"
+    "myWork"
+    ;}
+}
