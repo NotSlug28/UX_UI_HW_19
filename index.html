@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<script src="js/index.js"></script>
 <html>
     <head>
         <title></title>
         <link href="css/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="js/index.js"></script>
     </head>
     <body>
         <header class="nav">
@@ -26,28 +28,21 @@
 <button> Download Resume </button>
 </div>
         </section>
-        <footer>
-            <ul>
-                <li class="inline-block">about</li>
-                <li class="inline-block">skills</li>
-                <li class="inline-block">work</li>
-                <li class="inline-block">contact</li>
-            </ul>
-        </footer>
+
     </body>
 </html>
  <!--  My UX Skills section coded using CSS flex -->
 <section class="mySkills">
-    <h1 class="h1Skills">My UX Skills</h1>
+    <h1 id="h1Skills">See My UX Skills</h1>
     <div class="flexContainer">
         <div class="thirtyThree">
             <h3>User Research</h3>
-            <img src="images/noun-research-3051496.png">
+            <div class="uRimg"><img src="images/noun-research-3051496.png"></div>
             <p>Years of research experince exploring the best visual creative concepts, messaging and interaction experiences for users.</p>
         </div>
         <div class="thirtyThree">
             <h3>User Interface Design</h3>
-            <img src="images/noun-design-6209115.png">
+            <div class=""><img src="images/noun-design-6209115.png"></div>
             <p>Web and mobile app design experience with testing based optimizations</p>
         </div>
         <div class="thirtyThree">
@@ -91,10 +86,16 @@
                 <img src="images/FCCPlaceholder.png">
             </div>
         </section>
-        
-
-    
 
     </div>
 <h3>View All Projects</h3>
 </section>
+
+<footer>
+    <ul>
+        <li class="inline-block">about</li>
+        <li class="inline-block">skills</li>
+        <li class="inline-block">work</li>
+        <li class="inline-block">contact</li>
+    </ul>
+</footer>

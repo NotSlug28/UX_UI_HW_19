@@ -1,5 +1,8 @@
 console.log("Your index.js file is loaded correctly!");
 
-$(".h1Skills").click(function(){
-$(".thirtyThree").fadeout();
+$(document).ready(function() {
+$("#h1Skills").click(function(){
+$(".thirtyThree").fadeToggle();
 });
+});
+

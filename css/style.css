@@ -10,14 +10,13 @@
 .nav{
     width: 73%;
     padding: 1%;
+
    
 
 }
 .ul{
     width: 50%;
     margin-left: auto;
-    
-
 }
 
 .logo{
@@ -35,8 +34,8 @@ width: 500px;
 margin: auto;
 }
 
-.footer{
-    background-color: #373738;
+footer{
+    background-color: #FC8903;
 }
 
 .footer ul{
@@ -78,6 +77,10 @@ text-align: center;
 
 .thirtyThree{
     width:33%;
+    display:none;
+    padding: 5%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #636161;
 }
 
 .Brooklynimg{
@@ -107,17 +110,33 @@ height:auto;
 width: 400px;;
 }
 
-@media only screen and (max-width:600){.workGrid{
-    display:flex;
-    flex-direction: column;
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    width:100%;
-    grid-template-areas: 
-    "myWork"
-    "myWork" 
-    "myWork"
-    "myWork"
-    "myWork"
-    "myWork"
+@media only screen and (max-width:600px){.workGrid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:0%;
+    background-color: red;
     ;}
 }
+
+body{
+    background-color: #F5D135;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@font-face{
+    font-family: 'Arima';
+    src:url(../Arima.zip);
+}
+
+
+nav{
+    background-color: #FC8903;
+}
+
+#h1Skills{
+    border: 1px solid black;
+    box-shadow:10px 10px 5px #3d3d3d;
+}
+
+
