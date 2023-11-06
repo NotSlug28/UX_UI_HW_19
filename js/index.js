@@ -6,3 +6,8 @@ $(".thirtyThree").fadeToggle();
 });
 });
 
+$(document).ready(function() {
+    $(".uxSkills").click(function(){
+    $(".thirtyThree").fadeToggle();
+    });
+    });

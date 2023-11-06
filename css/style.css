@@ -46,6 +46,7 @@ footer{
 
 .mySkills{
 text-align: center;
+padding-top: 10%;
 }
 
 .mySkills img{
@@ -63,6 +64,7 @@ text-align: center;
 .myWork{
     grid-area:myWork;
     text-align: center;
+
     
 }
 
@@ -72,14 +74,12 @@ text-align: center;
     grid-template-areas: "myWork myWork";
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 50% 50%;
-
 }
 
 .thirtyThree{
     width:33%;
     display:none;
     padding: 5%;
-    border: 1px solid black;
     box-shadow: 10px 10px 5px #636161;
 }
 
@@ -114,12 +114,11 @@ width: 400px;;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:0%;
-    background-color: red;
     ;}
 }
 
 body{
-    background-color: #F5D135;
+    background-color: #f9DD78;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -137,6 +136,54 @@ nav{
 #h1Skills{
     border: 1px solid black;
     box-shadow:10px 10px 5px #3d3d3d;
+    display:none;
 }
 
+.uxSkills{
+    color: #f7e954;
+    background-color: #FC8903;
+    font-size: x-large;font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ box-shadow: 10px 5px 10px #3d3d3d;
+}
+button{
+    background-color: #a01bc2;
+    color: white;
+}
 
+.vapHeader{
+    background-color: #a01bc2;
+    color: white;
+}
+
+.skillsButton{
+padding-bottom: 5%;
+}
+
+.bbDiv{
+    background-color: #F9B96D;
+}
+.workOne{
+    background-color: #F9B96D;
+}
+.workThree{
+    background-color: #F9B96D;
+    display:flex;
+    width: 100%;
+}
+
+.workTwo{
+    background-color: #f9DD78;
+    width: 100%;
+    display:flex;
+
+}
+.Brooklynimg, .BkRd{
+    width: 50%;
+    vertical-align: top;
+}
+
+.Cs3img, .fccRd{
+    width: 50%;
+    vertical-align: bottom;
+}
